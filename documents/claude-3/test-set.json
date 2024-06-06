@@ -1,0 +1,282 @@
+[
+  {
+    "question": "What are the names of the models in the Claude 3 family?",
+    "context": "We introduce Claude 3, a new family of large multimodal models – Claude 3 Opus, our most capable offering, Claude 3 Sonnet, which provides a combination of skills and speed, and Claude 3 Haiku, our fastest and least expensive model.",
+    "answer": "Claude 3 Opus, Claude 3 Sonnet, Claude 3 Haiku",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "Which Claude 3 model is designed to balance skills and speed?",
+    "context": "Claude 3 Sonnet, which provides a combination of skills and speed",
+    "answer": "Claude 3 Sonnet",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "If a user requires a model with the fastest response time from the Claude 3 family, which model should they choose?",
+    "context": "Claude 3 Haiku is the fastest and most afford- able option on the market for its intelligence category, while also including vision capabilities.",
+    "answer": "Claude 3 Haiku",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "Where can I access the Claude 3 model family?",
+    "context": "Developed by Anthropic and announced in March 2024, the Claude 3 model family will be available in our consumer offerings (Claude.ai, Claude Pro) as well as enterprise solutions like the Anthropic API, Amazon Bedrock, and Google Vertex AI.",
+    "answer": "Claude.ai, Claude Pro, Anthropic API, Amazon Bedrock, Google Vertex AI",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What is the cutoff knowledge date for the Claude 3 models?",
+    "context": "The knowledge cutoff for the Claude 3 models is August 2023.",
+    "answer": "August 2023",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "Considering Claude 3's intended use, would it be appropriate for unassisted medical diagnosis?",
+    "context": "The models should not be used on their own in high-stakes situations where an incorrect answer could cause harm. For example, while Claude models could support a lawyer or doctor, they should not be deployed instead of one, and any responses should still be reviewed by a human.",
+    "answer": "No, it would not be appropriate for unassisted medical diagnosis.",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "What training data sources were used for the Claude 3 models?",
+    "context": "Claude 3 models are trained on a proprietary mix of publicly available information on the Internet as of August 2023, as well as non-public data from third parties, data provided by data labeling services and paid contractors, and data we generate internally",
+    "answer": "Publicly available information, non-public third-party data, data from labeling services, internal data.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What is expert vulnaribility discovery?",
+    "context": "Expert vulnerability discovery: given a (potentially obfuscated) codebase that contains an advanced vulnerability, correctly characterize and identify the location of the vulnerability.",
+    "answer": "Identifying and characterizing advanced vulnerabilities in codebases.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What principle was added to Claude's constitution with the Claude 3 models?",
+    "context": "With Claude 3 models, we have added an additional principle to Claude’s constitution to encourage respect for disability rights, sourced from our research on Collective Constitutional AI",
+    "answer": "A principle to encourage respect for disability rights.",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "What demonstrates Claude 3 Opus's effectiveness in multilingual understanding?",
+    "context": "Notably, Claude 3 Opus reaches the state of the art in Multilingual Math MGSM benchmark with a score above 90% in a 0-shot setting.",
+    "answer": "Claude 3 Opus reaching state of the art in MGSM benchmark with score above 90% in 0-shot setting.",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "How many tokens do Claude 3 models support in their context window?",
+    "context": "Claude 3 models support contexts reaching at least 1M tokens",
+    "answer": "Up to 1M tokens.",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "Was GCP used to train the Claude 3 models?",
+    "context": "These models were trained using hardware from Amazon Web Services (AWS) and Google Cloud Platform (GCP)",
+    "answer": "Yes the Claude 3 models are trained using hardware from Amazon Web Services and Google Cloud Platform (GCP).",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What do APPS and MBPP involve?",
+    "context": "coding in HumanEval [32], APPS [33], and MBPP [34]",
+    "answer": "Coding",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What is the policy on the use of Claude models for high-stakes situations?",
+    "context": "The models should not be used on their own in high-stakes situations where an incorrect answer could cause harm.",
+    "answer": "They should not be used on their own in high-stakes situations where an incorrect answer could cause harm.",
+    "question_type": "reasoning",
+    "modality": "text"
+  },
+  {
+    "question": "What kind of data is excluded from Claude 3's training?",
+    "context": "The Claude 3 suite of models have not been trained on any user prompt or output data submitted to us by users or customers, including free users, Claude Pro users, and API customers.",
+    "answer": "User prompt or output data submitted by users or customers.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What is the purpose of Claude's Constitution?",
+    "context": "Our core research focus has been training Claude models to be helpful, honest, and harmless. Currently, we do this by giving models a Constitution – a set of ethical and behavioral principles that the model uses to guide its outputs.",
+    "answer": "A set of ethical and behavioral principles to guide its outputs.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What are the core frameworks used in training Claude 3 models?",
+    "context": "with core frameworks including PyTorch [7], JAX [8], and Triton [9]",
+    "answer": "PyTorch, JAX, and Triton.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What training technique was used to align Claude with human values during reinforcement learning?",
+    "context": "Anthropic used a technique called Constitutional AI [16] to align Claude with human values during reinforcement learning by explicitly specifying rules and principles based on sources like the UN Declaration of Human Rights",
+    "answer": "Constitutional AI.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What level is GPQA?",
+    "context": "GPQA (A Graduate-Level Google-Proof Q&A Benchmark)",
+    "answer": "Graduate-level",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "How do Claude models construct their responses?",
+    "context": "Claude constructs its responses one set of characters at a time, in order.",
+    "answer": "One set of characters at a time, in order, without editing after construction.",
+    "question_type": "simple",
+    "modality": "text"
+  },
+  {
+    "question": "What stands out in the evaluation results for the Claude 3 family on the PubMedQA benchmark?",
+    "context": "table1",
+    "answer": "Claude 3 Sonnet and Haiku show better performance than Claude 3 Opus, despite being smaller models.",
+    "question_type": "multi-context",
+    "modality": "table"
+  },
+  {
+    "question": "How does Claude 3 model's performance on the GRE quantitative section compare to the verbal section?",
+    "context": "table2",
+    "answer": "GRE quantitative score is lower than GRE verbal score for Claude 3 Opus.",
+    "question_type": "reasoning",
+    "modality": "table"
+  },
+  {
+    "question": "What score did Claude 3 Opus achieve on the GRE Quantitative section?",
+    "context": "table2",
+    "answer": "159",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "What performance did Claude 3 Opus demonstrate on visual question answering for science diagrams?",
+    "context": "table3",
+    "answer": "88.1%",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "Which model has the highest score on the MathVista benchmark?",
+    "context": "table3",
+    "answer": "Gemini 1.0 Ultra",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "What is the performance of Claude 3 Haiku on MGSM (multilingual math) benchmark?",
+    "context": "table4",
+    "answer": "76.5% in the 8-shot setting, 75.1% in the 0-shot setting",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "What was the score of Claude 2.1 on Multilingual MMLU?",
+    "context": "table5",
+    "answer": "63.4%",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "What is the average recall of Claude 3 Sonnet in a 200k contecxt length setting?",
+    "context": "table7",
+    "answer": "91.4%",
+    "question_type": "simple",
+    "modality": "table"
+  },
+  {
+    "question": "What is the score difference between Claude 3 Sonnet and GPT-4 in the GPQA evaluation on the main test set in a 5-shot CoT setting?",
+    "context": "table8",
+    "answer": "-0.6%",
+    "question_type": "reasoning",
+    "modality": "table"
+  },
+  {
+    "question": "Which model in the Claude 3 family shows the worst performance on the GPQA evaluation on the extended test set?",
+    "context": "table8",
+    "answer": "Claude 3 Haiku",
+    "question_type": "reasoning",
+    "modality": "table"
+  },
+  {
+    "question": "Which model in the Claude 3 family made the least incorrect refusals on the Wildchat evaluation dataset?",
+    "context": "figure2",
+    "answer": "Claude 3 Haiku",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "Which model in the Claude 3 family made the least incorrect refusals on the XSTest evaluation?",
+    "context": "figure3",
+    "answer": "Claude 3 Opus",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "For which use case did Claude 3 Sonnet show the highest win rate compared to the baseline Claude instant model?",
+    "context": "figure5",
+    "answer": "Coding",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "What is the win rate of Claude 3 Sonnet for non-English tasks compared to the baseline?",
+    "context": "figure6",
+    "answer": "65%",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "For which 'expert knowledge' domain did Claude 3 Sonnet show the highest win rate?",
+    "context": "figure7",
+    "answer": "Finance",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "Which languages were included in the Multilingual MMLU evaluation on Claude 3 models?",
+    "context": "figure10",
+    "answer": "Arabic, German, Spanish, French, Italian, Dutch, Russian, Ukrainian, Vietnamese, Simplified Chinese",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "How does the loss on code for Claude 3 Haiku compare to the loss on text on long context data?",
+    "context": "figure14",
+    "answer": "The loss on code is lower than the loss on text for Claude 3 Haiku.",
+    "question_type": "reasoning",
+    "modality": "image"
+  },
+  {
+    "question": "Which Claude model has the lowest recall rate at a 200k context length?",
+    "context": "figure16",
+    "answer": "Claude 3 Haiku",
+    "question_type": "reasoning",
+    "modality": "image"
+  },
+  {
+    "question": "Describe the overall results for Trust & Safety multimodal policy red teaming for Claude 3 Opus and Sonnet",
+    "context": "figure17",
+    "answer": "Both Opus and Sonnet excel in the 'Pass' category, with results nearly reaching the 100 mark. For 'Hallucinations', their performance is much lower. Lastly, for 'Failure to acknowledge harmful image', both have minimal but notably similar outcomes.",
+    "question_type": "simple",
+    "modality": "image"
+  },
+  {
+    "question": "Which demographic group is favored the most by the Claude 3 Opus model?",
+    "context": "figure19",
+    "answer": "Non-binary",
+    "question_type": "reasoning",
+    "modality": "image"
+  }
+]
